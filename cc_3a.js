@@ -41,7 +41,7 @@ customers.push({
 customers.shift();
 
 // Update customer info
-customers[1].email = "janey123@example.com"
+customers[0].email = "janey123@example.com"
 
 // Add a new purchase to a customer
 customers[2].purchases.push("smartwatch band");
